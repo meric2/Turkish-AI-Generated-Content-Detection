@@ -1,0 +1,1 @@
+# Turkish-AI-Generated-Content-Detection
