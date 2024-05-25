@@ -26,11 +26,22 @@ Our primary contribution is a statistical framework for human detection that can
 
 https://arxiv.org/abs/2106.11394
 
-The primary goal of the XAI framework is to identify which types of explanations and models provide the highest levels of transparency and trustworthiness from the user's perspective. By standardizing the evaluation of model interpretability, the framework aims to guide the development of more transparent and user-friendly AI systems.
+The primary goal of the XAI framework is to identify which types of explanations and models provide the highest levels of transparency and trustworthiness from the user's perspective. By standardizing the evaluation of modal interpretability, the framework aims to guide the development of more transparent and user-friendly AI systems.
+
+--------------------
+
+https://arxiv.org/abs/2403.19725
+
+Uses classical methods. Word2Vec/GloVe: Pre-trained word embedding models used to capture semantic meaning in the texts.
 
 --------------------
 
 https://arxiv.org/abs/2310.05130
 
+FAST-DETECTGPT: Efficient Zero-Shot Detection of Machine-Generated Text via Conditional Probability Curvature
+Faster and better than DetectGPT
 
+--------------------
+
+https://arxiv.org/abs/2403.03506
 
