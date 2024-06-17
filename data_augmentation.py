@@ -3,6 +3,7 @@ import pandas as pd
 import random
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+import re
 
 # Download necessary NLTK resources
 nltk.download('punkt')
@@ -61,8 +62,15 @@ def random_deletion(text, p):
     sentence = ' '.join(remaining)
     return sentence
 
+def remove_characters(text):
+    return re.sub(r'[#*]', '', text)
+
+
 # Load your data from an Excel file
-df = pd.read_excel('aidataset.xlsx')
+df = pd.read_excel('ai_data.xlsx')
+
+df['output'] = df['output'].apply(remove_characters)
+
 
 # Augment data
 augmented_texts = []
