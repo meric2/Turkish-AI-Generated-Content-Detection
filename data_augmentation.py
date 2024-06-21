@@ -64,26 +64,3 @@ def random_deletion(text, p):
 
 def remove_characters(text):
     return re.sub(r'[#*]', '', text)
-
-
-# # Load your data from an Excel file
-# df = pd.read_excel('ai_data.xlsx')
-
-# df['output'] = df['output'].apply(remove_characters)
-
-
-# # Augment data
-# augmented_texts = []
-# for index, row in df.iterrows():
-#     text = row['output']
-#     # Apply multiple transformations
-#     for _ in range(5):  # Repeat each transformation 5 times
-#         augmented_texts.append(synonym_replacement(text, n=2))
-#         augmented_texts.append(random_insertion(text, n=3))
-#         augmented_texts.append(random_swap(text, n=2))
-#         augmented_texts.append(random_deletion(text, p=0.1))
-
-# augmented_df = pd.DataFrame(augmented_texts, columns=['output'])
-# augmented_df.to_csv('augmented_data.csv', index=False, encoding='utf-8-sig')
-
-# print("Augmentation done. Check the 'augmented_data.csv' file.")
