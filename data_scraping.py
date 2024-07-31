@@ -6,7 +6,7 @@ import os
 
 # Set up your OpenAI API key (ensure this is kept secure)
 client = OpenAI(
-    api_key="sk-None-9hbkie1JTtJIl2AIzlZUT3BlbkFJdt8ojS6tmgdQyXKqcWYt"
+    api_key=""
 )
 
 # Load data
