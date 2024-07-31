@@ -1,0 +1,5 @@
+torch==2.1.2+cu118
+regex==2022.10.31
+nltk==3.6.7
+snowballstemmer==2.2.0
+transformers==4.42.4
